@@ -22,7 +22,7 @@ public class PontoReferencia {
     private String categoria;
 
 
-    // --- MUDANÇA AQUI ---
+    
     @JsonProperty("xCoord")
     @Column(nullable = false, precision = 8, scale = 6)
     private BigDecimal xCoord; 
