@@ -31,7 +31,7 @@ public class Rota {
 
     private String instrucoes;
 
-    // CAMPO QUE ESTAVA FALTANDO, AGORA CORRIGIDO
+    
     @ManyToMany
     @JoinTable(
       name = "rota_ponto_referencia",
@@ -41,7 +41,7 @@ public class Rota {
     private List<PontoReferencia> pontosReferencia;
     
 
-    // Construtores, Getters e Setters
+    
     public Rota() {
     }
 
